@@ -1,0 +1,1601 @@
+#header .session tr td a, #main .betslip .bet .game, #main .highlights--item .game, #main .highlights--item .odds .odd, .verify {
+    font-weight: 700
+}
+
+#contacts, #footer .top, #header .session, #main .betslip .delete-all, #main .betslip .details .right .place, #main .feature .title .game, #main .highlights--item .odds .draw, #main .jackpot .highlights--item .game, #main .jackpot .highlights--item .odds .draw, #main .landing .top--nav, .place, .sport-header {
+    text-transform: uppercase
+}
+
+body, html {
+    background-color: #d4d4d4;
+    margin: 0 auto;
+    max-width: 768px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%
+}
+
+table, td {
+    padding: 0;
+    margin: 0
+}
+
+.undecorate {
+    text-decoration: none;
+    color: #24367E
+}
+
+.spacer {
+    height: 5px;
+    background-color: transparent
+}
+
+.login-button {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    color: #000 !important
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-left {
+    text-align: left
+}
+
+.verify {
+    color: #24367e;
+    text-decoration: none
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+.green {
+    color: #75B82A
+}
+
+.theme-color {
+    color: #333
+}
+
+#main .betdetail .summary td, #main .betdetail .title .status .pending, #main .mybets .bet .pending, #main .terms, .dark-gray {
+    color: #5d5d5d
+}
+
+.padding-up-down {
+    padding: 8px 0
+}
+
+#header, #header table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+#header a {
+    color: #363636;
+    text-decoration: none
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header .brand, #header .brand .betslip {
+    background-color: #75B82A;
+    color: #fff
+}
+
+#header .brand .logo a img {
+    height: 30px
+}
+
+#header .brand td {
+    padding: 2px 5px
+}
+
+#header .brand .betslip {
+    text-align: right;
+    border-collapse: collapse;
+    font-size: 12px
+}
+
+#header .brand .betslip--count {
+    background-color: #ffd800;
+    padding: 3px 6px;
+    font-weight: 700
+}
+
+#header .session {
+    height: 30px;
+    text-align: center;
+    border-collapse: separate;
+    margin-top: 4px
+}
+
+.odd-del {
+    width: 20px
+}
+
+#header .session .loggedin td {
+    width: 25%
+}
+
+#header .session tr td {
+    background-color: #fff;
+    width: 50%
+}
+
+#main, #main .landing, .jp {
+    width: 100%
+}
+
+#header .session tr td a {
+    color: #6b6b6b;
+    font-size: 9px;
+    display: block
+}
+
+#header .nav {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 12px;
+    border-right: 2px solid #DEDFE4;
+    border-left: 2px solid #DEDFE4
+}
+
+#main, #main .landing .top--nav {
+    margin-top: 5px;
+    border-collapse: collapse
+}
+
+#header .nav .selected {
+    background-color: #24367E;
+    color: #fff
+}
+
+#header .nav .selected a {
+    color: #fff !important
+}
+
+#header .nav td {
+    background-color: #fff;
+    padding: 2px
+}
+
+#header .nav td a {
+    color: #686868;
+    display: block;
+    padding: 5px
+}
+
+#main .landing {
+    border-collapse: collapse;
+    border-left: 2px solid #d4d4d4;
+    border-right: 2px solid #d4d4d4
+}
+
+#main .landing .top {
+    width: 100%;
+    border-collapse: collapse
+}
+
+#main .landing .top--image {
+    border-right: 2px solid #DEDFE4
+}
+
+#main .landing .top--nav {
+    background-color: #fff;
+    font-size: 12px
+}
+
+#main .landing .top--nav td {
+    text-align: center;
+    width: 33%;
+    padding: 2px
+}
+
+#main .landing .top--nav td a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 6px
+}
+
+#main .landing .top--nav .selected {
+    border-bottom: 2px solid #363636
+}
+
+#main .landing .top--nav .selected a {
+    color: #333
+}
+
+#main .landing .top--search form table {
+    border-collapse: collapse
+}
+
+#main .landing .top--search form input {
+    width: 100%;
+    border: 1px solid #caccd4;
+    height: 28px;
+    padding: 0 5px;
+    background-color: #fbfbfb
+}
+
+#main .landing .top--search form button {
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color: #24367E;
+    color: #fff
+}
+
+#main .highlights {
+    color: #333;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5px 0
+}
+
+#main .highlights--item {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 98.5%;
+    margin: 5px .75%
+}
+
+#main .highlights--item .selected {
+    background-color: #f8e892;
+    color: #333 !important
+}
+
+#main .highlights--item .selected table td a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    width: 100%
+}
+
+#main .highlights--item .league {
+    width: 100%
+}
+
+#main .highlights--item .league td {
+    color: #5d5d5d;
+    font-size: 10px;
+    padding: 5px
+}
+
+#main .highlights--item .game {
+    text-align: center;
+    font-size: 12px
+}
+
+#main .highlights--item .game .clubs {
+    text-align: left;
+    padding-left: 5px
+}
+
+#main .highlights--item .game .sidebet {
+    text-align: center;
+    border: 1px solid #DEDFE4;
+    background-color: #f2f2f4;
+    max-width: 35px;
+    display: block;
+    float: right
+}
+
+#main .highlights--item .game .sidebet a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 8px
+}
+
+.sidebets {
+    padding: 0 3px
+}
+
+#main .highlights--item .odds {
+    background-color: #fbfbfb;
+    color: #24367E;
+    font-size: 12px;
+    border-top: 1px solid #b5b5b5
+}
+
+#main .highlights--item .odds table {
+    width: 100%
+}
+
+#main .highlights--item .odds td a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 4px 0
+}
+
+#main .highlights--item .odds .clubone {
+    padding: 0 5px;
+    text-align: left
+}
+
+.picked {
+    background: #f8e892 !important;
+    color: #333 !important
+}
+
+.draw {
+    /*border-right: 1px solid #b5b5b5;*/
+    /*border-left: 1px solid #b5b5b5*/
+}
+
+#main .highlights--item .odds .border-td {
+    height: 100%;
+    width: 1px;
+    background-color: #b5b5b5
+}
+
+#main .highlights--item .odds .border-tr > td {
+    height: 2px;
+    width: 100%;
+    background-color: #DEDFE4
+}
+
+#main .highlights--item .odds .draw td {
+    text-align: center
+}
+
+#main .highlights--item .odds .clubtwo {
+    padding: 0 5px;
+    text-align: left
+}
+
+#main .highlights--item .meta {
+    padding: 5px 0
+}
+
+#main .pagination {
+    font-size: 12px
+}
+
+#main .pagination table {
+    margin: 0 auto
+}
+
+#main .pagination table .selected {
+    background-color: #333
+}
+
+#main .pagination table td {
+    background-color: #636363;
+    width: 30px;
+    height: 30px;
+    text-align: center
+}
+
+#main .pagination table td a {
+    color: #fff;
+    text-decoration: none
+}
+
+#main .betslip {
+    border-collapse: collapse;
+    color: #333
+}
+
+#main .betslip .delete {
+    text-align: center;
+    vertical-align: center
+}
+
+.alert {
+    font-size: 13px;
+    padding: 4px;
+    text-align: center
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+
+.remove-match {
+    background: transparent !important;
+    border: none !important;
+    color: #ffc428 !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    font-weight: 700;
+    height: 19px;
+}
+
+#main .betslip .delete a {
+    background-color: #a6a9b6;
+    color: #fff;
+    padding: 5px 10px
+}
+
+#main .betslip a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#main .betslip .bet {
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px
+}
+
+#main .betslip .bet td {
+    padding: 0 2px
+}
+
+#main .betslip .bet tr {
+    height: 20px
+}
+
+#main .betslip .bet .type {
+    color: #585b6b;
+    font-weight: 100
+}
+
+#main .betslip .bet .odd, #main .betslip .bet .pick {
+    font-weight: 700
+}
+
+#main .betslip .title {
+    background-color: #f7f7f9;
+    color: #24367E;
+    height: 30px;
+    font-size: 12px
+}
+
+.bold {
+    font-weight: 700
+}
+
+#main .betslip .details {
+    background-color: #fafafb;
+    font-size: 12px;
+    margin-bottom: 2px
+}
+
+#main .betslip .details .left {
+    border-right: 2px solid #DEDFE4;
+    padding: 5px;
+    width: 45%
+}
+
+#main .betslip .details .right {
+    border-left: 2px solid #DEDFE4;
+    padding: 5px
+}
+
+#main .betslip .details .right form input {
+    width: 80%;
+    height: 28px;
+    padding: 0 5px;
+    min-width: 20px;
+    border: 2px solid #ecedef
+}
+
+#main .betslip .details .right .update {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 100%
+}
+
+#main .betslip .details .right .place {
+    width: 100%;
+    height: auto;
+    background-color: #FFD800;
+    border: none;
+    font-weight: 700;
+    padding: 8px 0
+}
+
+#main .betslip .details tr {
+    height: 30px
+}
+
+#main .betslip .delete-all {
+    text-align: center;
+    color: #ff1a1a;
+    height: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    vertical-align: top;
+    border: none;
+    background: 0 0;
+    margin: auto;
+    display: table
+}
+
+.aoi li a, .gothb, .sport-header {
+    background: #fff
+}
+
+#main .football {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px
+}
+
+.aoi, .sport {
+    margin: 0;
+    list-style-type: none
+}
+
+.jp .game td {
+    padding-top: 2px
+}
+
+#main .football .title {
+    color: #27357f;
+    height: 35px;
+    text-align: left;
+    padding-left: 5px
+}
+
+#main .football .menu, .menu {
+    background-color: #fff;
+    color: #24367E;
+    border-bottom: 1px solid #DEDFE4
+}
+
+.aoi {
+    padding: 3px
+}
+
+.sport {
+    padding: 0
+}
+
+.sport .competition > a {
+    font-weight: 700
+}
+
+.lgue {
+    padding-left: 15px !important
+}
+
+.sport-header {
+    font-weight: 700;
+    color: #24367e !important;
+    display: block;
+    padding: 10px
+}
+
+#main .football .menu a, .aoi li a, .gothb, .menu a {
+    color: #686868;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    text-decoration: none
+}
+
+.gothb {
+    padding: 10px;
+    border-bottom: 1px solid #dedfe4;
+    font-weight: 700
+}
+
+.aoi li a {
+    padding: 10px;
+    border-bottom: 1px solid #DEDFE4
+}
+
+#main .football .menu a {
+    padding: 10px;
+    text-align: left
+}
+
+.menu a, .text-center {
+    text-align: center
+}
+
+hr {
+    border: 1px solid #f4f5f6
+}
+
+.menu a {
+    padding: 6px;
+    font-size: 12px
+}
+
+#main .football .menu .text {
+    vertical-align: middle
+}
+
+.full-width {
+    width: 100%
+}
+
+#main .football .menu .icon {
+    font-size: 19px;
+    vertical-align: middle
+}
+
+#main .sports {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px
+}
+
+#main .sports .category {
+    width: 100%
+}
+
+#main .sports .category .title {
+    background-color: #24367E;
+    color: #fff;
+    height: 35px;
+    text-align: left;
+    padding-left: 5px
+}
+
+#main .sports .category .sub-category {
+    width: 100%;
+    background-color: #fff;
+    color: #24367E
+}
+
+#main .sports .category .sub-category th {
+    text-align: left;
+    padding-left: 10px
+}
+
+#main .sports .category .sub-category tr {
+    border-bottom: 1px solid #DEDFE4;
+    height: 30px
+}
+
+#main .sports .category .sub-category td {
+    padding-left: 30px
+}
+
+#main .jackpot {
+    width: 100%
+}
+
+#main .jackpot--title {
+    background-color: #f4f5f6;
+    color: #24367E;
+    height: 30px;
+    font-size: 14px;
+    border: none
+}
+
+.jp-matches .row {
+    background: #fff;
+    padding: 3px;
+    margin: 5px;
+    overflow: auto
+}
+
+.jp-matches .row .bold {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.jp-matches .row .teams {
+    padding: 5px
+}
+
+.jp-matches .row button {
+    float: left;
+    background: #f3f3f3;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    outline: 0
+}
+
+.bet > td {
+    padding: 2px
+}
+
+#main .jackpot .highlights {
+    color: #333;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5px 0
+}
+
+.one-row {
+    width: 100% !important
+}
+
+.two-rows {
+    width: 50% !important
+}
+
+.three-rows {
+    width: 33.33% !important
+}
+
+#main .jackpot .highlights--item .league, .place {
+    width: 100%
+}
+
+.place {
+    padding: 10px 0;
+    background-color: #FFD800;
+    border: none;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.total-stake {
+    padding: 5px 0
+}
+
+.pick {
+    display: block;
+    float: left
+}
+
+.placebet {
+    text-align: center
+}
+
+.placebet .met {
+    color: #333;
+    font-size: 14px
+}
+
+.placebet .stake-amt {
+    color: white !important;
+    font-weight: 700
+}
+
+#place_bet_button {
+    margin-top: 5px
+}
+
+#main .jackpot .highlights--item {
+    background-color: #fff;
+    border-collapse: collapse;
+    margin-bottom: 5px
+}
+
+#main .jackpot .highlights--item .selected {
+    background-color: #24367E;
+    color: #fff !important
+}
+
+#main .jackpot .highlights--item .selected table td a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%
+}
+
+#main .jackpot .highlights--item .league td, .meta {
+    color: #636779;
+    font-size: 9px;
+    padding: 0 5px
+}
+
+#main .jackpot .highlights--item .game {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px
+}
+
+#main .jackpot .highlights--item .game .clubs {
+    text-align: left;
+    padding-left: 5px
+}
+
+#main .jackpot .highlights--item .game .sidebet {
+    text-align: center;
+    padding: 0;
+    border: 2px solid #DEDFE4;
+    background-color: #f2f2f4
+}
+
+#main .jackpot .highlights--item .game .sidebet a {
+    color: #24367E;
+    text-decoration: none;
+    display: block
+}
+
+#main .jackpot .highlights--item .odds {
+    background-color: #f2f2f4;
+    color: #24367E;
+    font-size: 12px
+}
+
+#main .odds td button, .sidebet-card {
+    width: 100%;
+    color: #333;
+    display: block
+}
+
+#main .jackpot .highlights--item .odds table {
+    width: 100%
+}
+
+#main .odds td button {
+    text-decoration: none;
+    text-align: right;
+    padding: 4px 0;
+    border: none;
+    outline: 0;
+    background: 0 0
+}
+
+.sidebet-card {
+    text-align: center;
+    border-collapse: collapse;
+    background: #fff
+}
+
+.sidebet-header {
+    text-decoration: none;
+    color: #333;
+    background: #e4e4e4;
+    clear: both;
+    display: block;
+    padding: 6px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-top: 5px solid #d4d4d4;
+    font-weight: 700;
+    text-align: left
+}
+
+.odd-value {
+    font-weight: 700;
+    display: inline-block;
+    float: right
+}
+
+.side-label {
+    text-align: left;
+    display: inline-block;
+    float: left
+}
+
+.odds-w {
+    width: 33%
+}
+
+.sidebet-card button {
+    float: left;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    padding: 8px 3px;
+    width: 50%;
+    outline: 0
+}
+
+#main .jackpot .highlights--item .odds .clubone {
+    padding: 0 5px;
+    border-top: 2px solid #dedfe4;
+    text-align: left
+}
+
+#main .jackpot .highlights--item .odds .draw {
+    border-left: 2px solid #dedfe4;
+    border-right: 2px solid #dedfe4;
+    border-top: 2px solid #dedfe4
+}
+
+#main .jackpot .highlights--item .odds .draw td {
+    text-align: center
+}
+
+#main .jackpot .highlights--item .odds .clubtwo {
+    padding: 0 5px;
+    border-top: 2px solid #dedfe4;
+    text-align: left
+}
+
+#main .jackpot .highlights--item .odds .odd {
+    font-weight: 700
+}
+
+#main .bingwa4 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px
+}
+
+#main .title {
+    background-color: #efefef;
+    color: #24367E;
+    font-size: 14px;
+    padding: 5px
+}
+
+.reset-password a {
+    color: #24367E;
+    text-decoration: none;
+    font-weight: 700
+}
+
+#main .bingwa4 .match {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #fff;
+    color: #24367E
+}
+
+#main .bingwa4 .match th {
+    background-color: #24367E;
+    color: #fff
+}
+
+#main .bingwa4 .match td {
+    display: inline-block;
+    background-color: #DEDFE4;
+    color: #24367E;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #fff
+}
+
+#main .register {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    background-color: #fff;
+    font-size: 12px
+}
+
+#main .register p {
+    color: #41434f;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 5px
+}
+
+#contacts, #footer td, #main .betdetail, #main .mybets, #main .mybets table {
+    text-align: center
+}
+
+#main .register .title {
+    background-color: #ecedef;
+    color: #24367e;
+    height: 30px;
+    font-size: 14px
+}
+
+#main .register .form {
+    width: 100%;
+    border-collapse: collapse
+}
+
+#main .register .form .spacer {
+    height: 10px
+}
+
+#main .register .form .input {
+    margin: 2px 0
+}
+
+#main .register .form .input .checkbox {
+    font-size: 12px;
+    font-weight: 700;
+    color: #41434f
+}
+
+#main .register .form .input .checkbox a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#main .register .form .input div {
+    padding: 0 20px;
+    margin-left: -10px
+}
+
+#main .register .form .input div label {
+    display: block;
+    color: #333;
+    font-weight: 700
+}
+
+#main .register .form .input div input {
+    width: 100%;
+    border: 2px solid #696b74;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: 700
+}
+
+#main .register .form .input div input[type=checkbox] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%
+}
+
+#main .login, #main .login .form {
+    margin: 5px 0;
+    border-collapse: collapse
+}
+
+#main .register .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #24367E;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px
+}
+
+#main .register tr {
+    height: 30px
+}
+
+#main .login {
+    width: 100%;
+    background-color: #fff;
+    font-size: 12px
+}
+
+#main .login .title {
+    background-color: transparent;
+    color: #24367E;
+    height: 30px;
+    font-size: 14px
+}
+
+#main .login .form {
+    width: 100%
+}
+
+#main .login .form .spacer {
+    height: 10px
+}
+
+#main .login .form .input {
+    margin: 2px 0
+}
+
+#main .login .form .input .checkbox {
+    font-size: 12px;
+    font-weight: 700;
+    color: #41434f
+}
+
+#main .login .form .input .checkbox a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#main .login .form .input div {
+    padding: 0 20px;
+    margin-left: -10px
+}
+
+#main .login .form .input div label {
+    display: block;
+    color: #333;
+    font-weight: 700
+}
+
+#main .login .form .input div input {
+    width: 100%;
+    border: 2px solid #5d5d5d;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: 700
+}
+
+#main .login .form .input div input[type=checkbox] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%
+}
+
+#main .login .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #24367E;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px
+}
+
+#main .mybets {
+    width: 100%;
+    border-collapse: collapse;
+    color: #24367E
+}
+
+#main .mybets table {
+    width: 100%
+}
+
+.stake {
+    border: 2px solid #444;
+    height: 24px;
+    margin-right: -15px;
+    width: 50px
+}
+
+#main .mybets .title {
+    background-color: #f4f5f6;
+    height: 30px;
+    font-size: 12px;
+    border: none
+}
+
+#main .mybets .bet {
+    font-size: 10.8px;
+    font-weight: 700
+}
+
+#main .mybets .bet .won {
+    color: #4F8A10
+}
+
+#main .mybets .bet .lost {
+    color: #24367E
+}
+
+#main .mybets .bet .cancelled {
+    color: #f33
+}
+
+#main .mybets .bet table {
+    background-color: #fff;
+    margin-top: 2px;
+    border: 1px solid #fff
+}
+
+#main .mybets .bet table td {
+    padding: 5px;
+    font-weight: 400
+}
+
+#main .mybets .bet .title {
+    height: 30px;
+    padding: 5px;
+    background-color: #fff
+}
+
+#main .betdetail .title, #main .mybets .bet .detail {
+    background-color: #f4f5f6
+}
+
+#main .betdetail {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.8px
+}
+
+#main .betdetail table {
+    width: 100%;
+    text-align: center
+}
+
+#main .betdetail td, #main .betdetail th {
+    padding: 2px 5px
+}
+
+#main .betdetail .title {
+    color: #24367E;
+    height: 30px;
+    font-size: 14px;
+    border: none
+}
+
+#main .mybets .bet .title td {
+    font-weight: 700
+}
+
+#main .betdetail .title .status {
+    font-size: 10.8px;
+    font-weight: 700
+}
+
+#main .betdetail .title .status .won {
+    color: #4F8A10
+}
+
+#main .betdetail .title .status .lost {
+    color: #24367E
+}
+
+#main .betdetail .title .status .cancelled {
+    color: #f33
+}
+
+#main .betdetail .summary {
+    background-color: #fff;
+    border-collapse: separate;
+    margin-top: 5px
+}
+
+#main .deposit, #main .deposit .form, #main .feature, #main .withdraw, #main .withdraw .form {
+    border-collapse: collapse
+}
+
+#main .betdetail .summary td {
+    background-color: #f4f5f6
+}
+
+#main .betdetail .event {
+    background-color: #fff;
+    margin-bottom: 5px
+}
+
+#main .betdetail .event .title {
+    height: 30px;
+    padding: 5px;
+    background-color: #fff
+}
+
+#main .betdetail .event .detail {
+    background-color: #f4f5f6
+}
+
+#main .deposit {
+    width: 100%;
+    background-color: #fff;
+    color: #686868;
+    font-size: 12px
+}
+
+#main .deposit .title {
+    background-color: #ecedef;
+    color: #24367E;
+    height: 30px;
+    font-size: 14px
+}
+
+#main .deposit .form {
+    width: 100%;
+    margin: 5px 0
+}
+
+#main .deposit .form .spacer {
+    height: 10px
+}
+
+#main .deposit .form .input {
+    margin: 2px 0
+}
+
+#main .deposit .form .input .checkbox {
+    font-size: 12px;
+    font-weight: 700;
+    color: #41434f
+}
+
+#main .deposit .form .input .checkbox a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#main .deposit .form .input div {
+    padding: 0 20px;
+    margin-left: -10px
+}
+
+#main .deposit .form .input div label {
+    display: block;
+    font-weight: 700
+}
+
+#main .deposit .form .input div input {
+    width: 100%;
+    border: 2px solid #686868;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: 700
+}
+
+#main .deposit .form .input div input[type=checkbox] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%
+}
+
+#main .deposit .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #24367E;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px
+}
+
+#main .deposit tr {
+    height: 30px
+}
+
+#main .withdraw {
+    width: 100%;
+    background-color: #fff;
+    color: #686868;
+    font-size: 12px
+}
+
+#main .withdraw .title {
+    background-color: #ecedef;
+    color: #24367E;
+    height: 30px;
+    font-size: 14px
+}
+
+#main .withdraw .form {
+    width: 100%;
+    margin: 5px 0
+}
+
+#main .withdraw .form .spacer {
+    height: 10px
+}
+
+#main .withdraw .form .input {
+    margin: 2px 0
+}
+
+#main .withdraw .form .input .checkbox {
+    font-size: 12px;
+    font-weight: 700;
+    color: #41434f
+}
+
+#main .withdraw .form .input .checkbox a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#main .withdraw .form .input div {
+    padding: 0 20px;
+    margin-left: -10px
+}
+
+#main .withdraw .form .input div label {
+    display: block;
+    color: #686868;
+    font-weight: 700
+}
+
+#main .withdraw .form .input div input {
+    width: 100%;
+    border: 2px solid #333;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: 700
+}
+
+#main .withdraw .form .input div input[type=checkbox] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%
+}
+
+#main .withdraw .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #24367E;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px
+}
+
+#main .withdraw tr {
+    height: 30px
+}
+
+#main .feature {
+    width: 100%;
+    color: #24367E
+}
+
+#main .feature .title {
+    background-color: #f7f7f9;
+    color: #24367E;
+    height: 30px;
+    font-size: 14px;
+    border: none
+}
+
+#main .feature .title .game {
+    font-weight: 700
+}
+
+#main .feature .title .details {
+    font-size: 10px;
+    font-weight: 400;
+    color: #7b7b7b
+}
+
+#footer, #main .feature .item, #main .terms {
+    font-size: 12px
+}
+
+#contacts, #main .terms a {
+    font-weight: 700;
+    color: #24367E
+}
+
+#main .feature .title .details td {
+    padding: 2px
+}
+
+#main .feature .item > td {
+    border: none
+}
+
+#main .feature .item table {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 5px;
+    background-color: #fff;
+    border-collapse: collapse
+}
+
+#main .feature .item table .detail {
+    background-color: #f4f5f6
+}
+
+#main .feature .item table th {
+    background-color: #fff;
+    padding: 10px 5px;
+    height: 100%
+}
+
+#main .feature .item table td {
+    padding: 5px
+}
+
+#main .feature .item table .border-right {
+    border-right: 1px solid #fff
+}
+
+#main .feature .item table .border-left {
+    border-left: 1px solid #fff
+}
+
+#main .feature .item table .border-bottom {
+    border-bottom: 1px solid #fff
+}
+
+#main .feature .item table .border-top {
+    border-top: 1px solid #fff
+}
+
+#main .terms {
+    padding: 5px;
+    background-color: #fff;
+    width: 100%
+}
+
+#main .terms h1, #main .terms h2, #main .terms h3, #main .terms h4, #main .terms strong {
+    color: #333
+}
+
+#main .terms a {
+    text-decoration: none
+}
+
+#contacts {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#contacts p {
+    margin: 5px 0
+}
+
+#contacts p span {
+    font-weight: 100;
+    color: #6f7387
+}
+
+#contacts a {
+    text-decoration: none;
+    color: #24367E
+}
+
+#footer {
+    background-color: #DEDFE4;
+    width: 100%;
+    color: #8a8d9f;
+    padding: 10px;
+    margin-bottom: 0
+}
+
+#footer .social-icons ul {
+    list-style: none;
+    padding: 0
+}
+
+#footer .social-icons ul li {
+    display: inline-block
+}
+
+#footer .social-icons ul svg {
+    color: #8a8d9f;
+    fill: #8a8d9f;
+    width: 30px
+}
+
+.profile .menu {
+    background-color: #f5f5f5
+}
+
+.profile .menu a {
+    color: #333;
+    font-weight: 700
+}
+
+#footer .top {
+    color: #8a8d9f
+}
+
+#footer td {
+    vertical-align: top
+}
+
+#footer a {
+    color: #8a8d9f;
+    text-decoration: none
+}

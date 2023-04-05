@@ -1,0 +1,1969 @@
+html,
+body {
+    margin: 0 auto;
+    max-width: fit-content;
+    width: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    color:#fff;
+   max-width: 520px;
+}
+
+table,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.alert-info {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.undecorate {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+.locked .pick {
+    color: #7a7a7a;
+}
+
+.spacer {
+    height: 5px;
+    background-color: transparent;
+}
+
+.login-button {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    color: #000 !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.verify {
+    color: #FFD800;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.green {
+    color: #75B82A;
+}
+
+.theme-color {
+    color: #333;
+}
+
+
+.padding-up-down {
+    padding: 8px 0;
+}
+
+#header {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#header a {
+    color: #363636;
+    text-decoration: none;
+}
+
+#header table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.brandt {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.brandt {
+    color: white;
+}
+
+.brand {
+    color: white;
+}
+
+.brand .logo a img {
+    height: 30px;
+}
+
+.brand td {
+    padding: 5px 5px;
+}
+
+.brand .betslip {
+    text-align: right;
+    border-collapse: collapse;
+    color: white;
+    font-size: 12px;
+}
+
+.brand .betslip--count {
+    background-color: #ffd800;
+    padding: 3px 6px;
+    font-weight: bold;
+}
+
+#header .session {
+    text-transform: uppercase;
+    height: 30px;
+    text-align: center;
+    border-collapse: separate;
+    margin-top: 4px;
+}
+
+.odd-del {
+    width: 20px;
+}
+
+#header .session .loggedin td {
+    width: 25%;
+}
+
+#header .session tr td {
+    background-color: white;
+    width: 50%;
+}
+
+#header .session tr td a {
+    color: #6b6b6b;
+    font-weight: bold;
+    font-size: 9px;
+    display: block;
+}
+
+#header .nav {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 12px;
+    border-right: 2px solid #DEDFE4;
+    border-left: 2px solid #DEDFE4;
+    /*td:last-child {
+                border-right: 2px solid $gray;
+            }
+            td:first-child {
+                border-left: 2px solid $gray;
+            }*/
+}
+
+#header .nav .selected {
+    background-color: #1F2F38;
+    color: #fff;
+}
+
+#header .nav .selected a {
+    color: white !important;
+}
+
+#header .nav td {
+    background-color: white;
+    padding: 2px;
+}
+
+#header .nav td a {
+    color: #686868;
+    display: block;
+    padding: 5px;
+}
+
+.jp {
+    width: 100%;
+}
+
+#main {
+    border-collapse: collapse;
+    width: 100%;
+    background:#080300;
+}
+
+#main .landing {
+    border-collapse: collapse;
+    width: 100%;
+    border-left: 2px solid #bfbfbf;
+    border-right: 2px solid #bfbfbf;
+}
+
+#main .landing .top {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#main .landing .top--image {
+    border-right: 2px solid #DEDFE4;
+}
+
+#main .landing .top--nav {
+    background-color: #fefefe;
+    border-collapse: collapse;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#main .landing .top--nav td {
+    text-align: center;
+    /* width: 33%; */
+    padding: 2px;
+}
+
+#main .landing .top--nav td a {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+}
+
+#main .landing .top--nav .selected {
+    border-bottom: 0px solid #363636;
+}
+
+#main .landing .top--nav .selected a {
+    color: #2c2457;
+}
+
+.landing .top--search form table {
+    border-collapse: collapse;
+}
+
+.landing .top--search form input {
+    width: 100%;
+    border: 1px solid #16202C;
+    height: 28px;
+    padding: 0 5px;
+    background-color: #fbfbfb;
+}
+
+.landing .top--search form button {
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color:#16202C;
+    color: white;
+}
+
+#main .highlights {
+    color: #333;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0px 0;
+}
+
+.mkt-headers {
+    color: #000;
+    padding-top: 5px;
+    font-size: 11px;
+    height: 26px;
+    background: #bfbfbf;
+    margin-top: 3px;
+    padding-left: 3px;
+}
+
+table.highlights, div.highlights {
+    /* margin-bottom:60px !important; */
+}
+
+#main .highlights--item {
+    background-color: #f6f6f6;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    width: 100%;
+    margin: 2px 0;
+}
+
+#main .highlights--item .selected {
+    background-color: #f8e892;
+    color: #333 !important;
+}
+
+#main .highlights--item .selected table td a {
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+#main .highlights--item .league {
+    width: 100%;
+}
+
+#main .highlights--item .league td {
+    font-size: 10px;
+    padding: 0px;
+}
+
+#main .highlights--item .game {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#main .highlights--item .game .clubs {
+    text-align: left;
+    padding-left: 5px;
+}
+
+#main .highlights--item .game .sidebet {
+    text-align: center;
+    border: 1px solid #16202C;
+    background-color: #16202C;
+    max-width: 35px;
+    display: block;
+    float: right;
+}
+
+#main .highlights--item .game .sidebet a {
+    color: #FF015B;
+    text-decoration: none;
+    display: block;
+    padding: 5px 8px;
+}
+
+.sidebets {
+    padding: 0 0px;
+}
+
+#main .highlights--item .odds {
+    font-size: 12px;
+}
+
+#main .highlights--item .odds table {
+    width: 100%;
+}
+
+#main .highlights--item .odds td {
+    padding-left:2px;
+    padding-right:2px;
+}
+
+#main .highlights--item .odds td a {
+    color: #f1623d;
+    font-size:12px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 4px 0;
+}
+
+#main .highlights--item .odds .clubone {
+    text-align: left;
+}
+
+.picked, .picked td button {
+    background: #FBD703 !important;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, .9) !important;
+}
+
+.draw {
+    /*border-right: 1px solid #b5b5b5;*/
+    /*border-left: 1px solid #b5b5b5;*/
+}
+
+#main .highlights--item .odds .border-td {
+    height: 100%;
+    width: 1px;
+    background-color: #b5b5b5;
+}
+
+#main .highlights--item .odds .border-tr > td {
+    height: 2px;
+    width: 100%;
+    background-color: #16202C;
+}
+
+#main .highlights--item .odds .draw {
+    text-transform: uppercase;
+}
+
+#main .highlights--item .odds .draw td {
+    text-align: center;
+}
+
+#main .highlights--item .odds .clubtwo {
+    padding: 0px;
+    /*border-top: px solid darken($gray, 0%);*/
+    text-align: left;
+}
+
+#main .highlights--item .odds .odd {
+    /** font-weight: bold; **/
+}
+
+
+#main .highlights--item .meta {
+    padding: 5px 0;
+}
+
+#main .pagination {
+    /*background-color: #DEDFE4;*/
+    font-size: 12px;
+}
+
+#main .pagination table {
+    margin: 0 auto;
+}
+
+#main .pagination table .selected {
+    background-color: #333;
+}
+
+#main .pagination table td {
+    background-color: #636363;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+#main .pagination table td a {
+    color: white;
+    text-decoration: none;
+}
+
+#main .betslip {
+    border-collapse: collapse;
+    color: #333333;
+}
+
+#main .betslip .delete {
+    text-align: center;
+    vertical-align: center;
+}
+
+.alert {
+    font-size: 13px;
+    padding: 4px;
+    text-align: center;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.remove-match {
+    background: transparent !important;
+    border: none !important;
+    color: #ffc428 !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    font-weight: 700;
+    height: 19px;
+}
+
+#main .betslip .delete a {
+    background-color: #a6a9b6;
+    color: white;
+    padding: 5px 10px;
+}
+
+#main .betslip a {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+#main .betslip .bet {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+}
+
+#main .betslip .bet td {
+}
+
+#main .betslip .bet tr {
+    height: 20px;
+}
+
+#main .betslip .bet .game {
+    font-weight: bold;
+}
+
+#main .betslip .bet .type {
+    color: #585b6b;
+    font-weight: 100;
+}
+
+#main .betslip .bet .pick {
+    font-weight: bold;
+}
+
+#main .betslip .bet .odd {
+    font-weight: bold;
+}
+
+#main .betslip .title {
+    background-color: #bebebe;
+    color: #902065;
+    height: 30px;
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#main .betslip .details {
+    background-color: #613354;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+#main .betslip .details .left {
+    border-right: 2px solid #DEDFE4;
+    padding: 5px 5px;
+    width: 45%;
+}
+
+#main .betslip .details .right {
+    border-left: 2px solid #DEDFE4;
+    padding: 5px 5px;
+}
+
+#main .betslip .details .right form input {
+    width: 80%;
+    height: 28px;
+    padding: 0 5px;
+    min-width: 20px;
+    border: 2px solid #ecedef;
+}
+
+#main .betslip .details .right .update {
+    background-color: #444444;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+#main .betslip .details .right .place {
+    width: 100%;
+    height: auto;
+    background-color: #FFD800;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+#main .betslip .details tr {
+    height: 30px;
+}
+
+#main .betslip.top {
+    /* margin-bottom: 150px; */
+}
+
+.errorMessage {
+    display: block;
+    width: 100%;
+    color: #700000;
+    background: #898989;
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+#main .betslip .delete-all {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    vertical-align: top;
+    border: none;
+    background: transparent;
+    margin: auto;
+    display: table;
+}
+
+#main .football {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.jp .game td {
+    padding-top: 2px;
+}
+
+#main .football .title {
+    color: #902065;
+    height: 35px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #bebebe;
+}
+
+#main .football .menu {
+    color: #000;
+    border-bottom: 1px solid #bebebe;
+}
+
+.menu {
+    border-bottom: 1px solid #282105;
+}
+
+.aoi {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0;
+    padding: 3px;
+}
+
+.sport {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sport .competition > a {
+    font-weight: bold;
+}
+
+.lgue {
+    padding-left: 15px !important;
+}
+
+.sport-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFD800 !important;
+    background: #fff;
+    display: block;
+    padding: 10px;
+}
+
+.gothb {
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #dedfe4;
+    font-weight: bold;
+}
+
+.aoi li a {
+    color: #686868;
+    text-decoration: none;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #DEDFE4;
+}
+
+
+#main .football .menu a {
+    text-decoration: none;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #f4f5f6;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    padding: 6px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#main .football .menu .text {
+    vertical-align: middle;
+}
+
+.full-width {
+    width: 100%;
+    background:#080300;
+}
+
+#main .football .menu .icon {
+    font-size: 19px;
+    vertical-align: middle;
+}
+
+#main .sports {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+#main .sports .category {
+    width: 100%;
+}
+
+#main .sports .category .title {
+    background-color: #FFD800;
+    color: white;
+    height: 35px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#main .sports .category .sub-category {
+    width: 100%;
+    background-color: white;
+    color: #FFD800;
+    /*border-bottom: 1px solid $gray;*/
+}
+
+#main .sports .category .sub-category th {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#main .sports .category .sub-category tr {
+    border-bottom: 1px solid #DEDFE4;
+    height: 30px;
+}
+
+#main .sports .category .sub-category td {
+    padding-left: 30px;
+}
+
+#main .jackpot {
+    width: 100%;
+}
+
+#main .jackpot--title {
+    background-color: #f4f5f6;
+    color: #FFD800;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+}
+
+
+.jp-matches .row {
+    background: #fff;
+    padding: 3px;
+    margin: 5px;
+    overflow: auto;
+}
+
+.jp-matches .row .bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.jp-matches .row .teams {
+    padding: 5px;
+}
+
+.jp-matches .row button {
+    float: left;
+    background: #f3f3f3;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    outline: none;
+}
+
+.bet > td {
+    padding: 2px;
+}
+
+#main .jackpot .highlights {
+    color: #333;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+.one-row {
+    width: 100% !important;
+}
+
+.two-rows {
+    width: 50% !important;
+}
+
+.three-rows {
+    width: 33.33% !important;
+}
+
+.place {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FFD800;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.total-stake {
+    padding: 5px 0;
+}
+
+.pick {
+    display: block;
+    /* float: left; */
+}
+
+.odd {
+}
+
+.placebet {
+    text-align: center;
+}
+
+.placebet .met {
+    color: #333;
+    font-size: 14px;
+}
+
+.placebet .stake-amt {
+    color: #000;
+    font-weight: bold;
+}
+
+#place_bet_button {
+    margin-top: 5px;
+}
+
+#main .jackpot .highlights--item {
+    background-color: white;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+#main .jackpot .highlights--item .selected {
+    background-color: #FFD800;
+    color: white !important;
+}
+
+#main .jackpot .highlights--item .selected table td a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+#main .jackpot .highlights--item .league {
+    width: 100%;
+}
+
+#main .jackpot .highlights--item .league td, .meta {
+    color: #636779;
+    font-size: 9px;
+    padding: 0px;
+}
+
+#main .jackpot .highlights--item .game {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#main .jackpot .highlights--item .game .clubs {
+    text-align: left;
+    padding-left: 5px;
+}
+
+#main .jackpot .highlights--item .game .sidebet {
+    text-align: center;
+    padding: 0;
+    border: 2px solid #DEDFE4;
+    background-color: #f2f2f4;
+}
+
+#main .jackpot .highlights--item .game .sidebet a {
+    color: #FFD800;
+    text-decoration: none;
+    display: block;
+}
+
+#main .jackpot .highlights--item .odds {
+    background-color: #f2f2f4;
+    color: #FFD800;
+    font-size: 12px;
+}
+
+#main .jackpot .highlights--item .odds table {
+    width: 100%;
+}
+
+#main .jackpot .highlights--item .odds td {
+}
+.successMessage {
+    background: #898989;
+    margin-top: 1px;
+    padding: 10px;
+    color: #006400;
+}
+
+#main .odds td button {
+    color: #2c2457;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    outline: none;
+    background: #d7d7d7;
+    border-radius: 5px;
+}
+
+#main .highlights--item .league td.team-names {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 0px;
+
+
+}
+
+.sidebet-card {
+    color: #781c5d;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background: #fff;
+    display: block;
+}
+
+.sidebet-header {
+    clear: both;
+    display: block;
+    padding: 6px;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 400;
+    background:#e3e3e3;
+    text-align: left;
+}
+
+.odd-value {
+    display: inline-block;
+    float: right;
+}
+
+.side-label {
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+.odds-w {
+    width: 33%;
+}
+
+.sidebet-card button {
+    display: block;
+    float: left;
+    background: #fff;
+    border: none;
+    display: inline-block;
+    border: 1px solid #f3f3ee;
+    padding: 8px 3px;
+    width: 50%;
+    outline: none;
+}
+
+#main .jackpot .highlights--item .odds .clubone {
+    padding: 0 5px;
+    border-top: 2px solid #16202C;
+    text-align: left;
+}
+
+#main .jackpot .highlights--item .odds .draw {
+    border-left: 2px solid #dedfe4;
+    border-right: 2px solid #dedfe4;
+    border-top: 2px solid #dedfe4;
+    text-transform: uppercase;
+}
+
+#main .jackpot .highlights--item .odds .draw td {
+    text-align: center;
+}
+
+#main .jackpot .highlights--item .odds .clubtwo {
+    border-top: 2px solid #dedfe4;
+    text-align: left;
+}
+
+#main .jackpot .highlights--item .odds .odd {
+    font-weight: bold;
+}
+
+#main .bingwa4 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+#main .title {
+    background-color: #efefef;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.reset-password a {
+    color: #CA3856;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main .bingwa4 .match {
+    width: 100%;
+    margin: 5px 0;
+    background-color: white;
+    color: #FFD800;
+}
+
+#main .bingwa4 .match th {
+    background-color: #FFD800;
+    color: white;
+}
+
+#main .bingwa4 .match td {
+    display: inline-block;
+    background-color: #DEDFE4;
+    color: #FFD800;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#main .register {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    background-color: white;
+    font-size: 12px;
+}
+
+#main .register p {
+    color: #41434f;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#main .register .title {
+    background-color: #bebebe;
+    color: #902065;
+    height: 30px;
+    font-size: 14px;
+}
+
+#main .register .form {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#main .register .form .spacer {
+    height: 10px;
+}
+
+#main .register .form .input {
+    margin: 2px 0;
+}
+
+#main .register .form .input .checkbox {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#main .register .form .input .checkbox a {
+    text-decoration: none;
+    color: #CA3856;
+}
+
+#main .register .form .input div {
+    padding: 0 20px;
+    margin-left: -10px;
+}
+
+#main .register .form .input div label {
+    display: block;
+    font-weight: bold;
+}
+
+#main .register .form .input div input {
+    width: 100%;
+    border: 2px solid #696b74;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
+}
+
+#main .register .form .input div input[type="checkbox"] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%;
+}
+
+#main .register .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #FFD800;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#main .register tr {
+    height: 30px;
+}
+
+#main .login {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+#main .title {
+    background-color: #080701;
+    color: #b38124;
+    height: 30px;
+    font-size: 14px;
+}
+
+#main .login .form {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+#main .login .form .spacer {
+    height: 10px;
+}
+
+#main .login .form .input {
+    margin: 2px 0;
+}
+
+#main .login .form .input .checkbox {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#main .login .form .input .checkbox a {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+#main .login .form .input div {
+    padding: 0 20px;
+    margin-left: -10px;
+}
+
+#main .login .form .input div label {
+    display: block;
+    font-weight: bold;
+}
+
+#main .login .form .input div input {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
+}
+
+#main .login .form .input div input[type="checkbox"] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%;
+    color: #FFFFFF;
+}
+
+#main .login .form .input button {
+    width: 100%;
+    border-radius:2px;
+    border:none;
+    height: 40px;
+    background-color: #ab7a22;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+}
+
+
+#main .mybets {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#main .mybets table {
+    width: 100%;
+    text-align: center;
+    /*border-collapse: collapse;*/
+}
+
+.stake {
+    border: 2px solid #444;
+    height: 24px;
+    width: 100%;
+    text-align:right;
+}
+
+#main .mybets .bet {
+    font-size: 10.8px;
+    border-bottom: 1px solid #272005;
+    height: 40px;    
+    color:#999;
+}
+
+#main .mybets .bet .won {
+    color: #4F8A10;
+}
+
+#main .mybets .bet .lost {
+    color: #FFD800;
+}
+
+#main .mybets .bet .cancelled {
+    color: #ff3333;
+}
+
+#main .mybets .bet table {
+    background-color: white;
+    margin-top: 2px;
+    border: 1px solid white;
+}
+
+#main .mybets .bet table td {
+    padding: 5px;
+    font-weight: normal;
+}
+
+#main .mybets .bet .title {
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+}
+
+#main .mybets .bet .detail {
+    background-color: #f4f5f6;
+}
+
+#main .betdetail {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 10.8px;
+}
+
+#main .betdetail table {
+    width: 100%;
+    text-align: center;
+}
+
+#main .betdetail td, #main .betdetail th {
+    padding: 2px 5px;
+}
+
+#main .betdetail .title {
+    background-color: #f4f5f6;
+    color: #FFD800;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+}
+
+#main .mybets .bet .title td {
+    font-weight: bold;
+}
+
+#main .betdetail .title .status {
+    font-size: 10.8px;
+    font-weight: bold;
+}
+
+#main .betdetail .title .status .won {
+    color: #4F8A10;
+}
+
+#main .betdetail .title .status .lost {
+    color: #FFD800;
+}
+
+#main .betdetail .title .status .cancelled {
+    color: #ff3333;
+}
+
+#main .betdetail .summary {
+    background-color: #fff;
+    border-collapse: separate;
+    margin-top: 5px;
+}
+
+#main .betdetail .summary td {
+    background-color: #f4f5f6;
+}
+
+#main .betdetail .event {
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#main .betdetail .event .title {
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+}
+
+#main .betdetail .event .detail {
+    background-color: #f4f5f6;
+}
+
+#main .deposit {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+#main .deposit .title {
+    height: 30px;
+    font-size: 14px;
+}
+
+#main .deposit .form {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+#main .deposit .form .spacer {
+    height: 10px;
+}
+
+#main .deposit .form .input {
+    margin: 2px 0;
+}
+
+#main .deposit .form .input .checkbox {
+    font-size: 12px;
+    font-weight: bold;
+    color: #41434f;
+}
+
+#main .deposit .form .input .checkbox a {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+#main .deposit .form .input div {
+    padding: 0 10px;
+}
+
+#main .deposit .form .input div label {
+    display: block;
+    font-weight: bold;
+}
+
+#main .deposit .form .input div input {
+    width: 100%;
+    border: 2px solid #686868;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
+}
+
+#main .deposit .form .input div input[type="checkbox"] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%;
+}
+
+#main .deposit .form .input button {
+    width: 100%;
+    border: none;
+    border-radius:2px;
+    height: 40px;
+    background-color: #b38124;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+}
+
+#main .deposit tr {
+    height: 30px;
+}
+
+#main .withdraw {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: #686868;
+    font-size: 12px;
+}
+
+#main .withdraw .title {
+    background-color: #ecedef;
+    color: #FFD800;
+    height: 30px;
+    font-size: 14px;
+}
+
+#main .withdraw .form {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+#main .withdraw .form .spacer {
+    height: 10px;
+}
+
+#main .withdraw .form .input {
+    margin: 2px 0;
+}
+
+#main .withdraw .form .input .checkbox {
+    font-size: 12px;
+    font-weight: bold;
+    color: #41434f;
+}
+
+#main .withdraw .form .input .checkbox a {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+#main .withdraw .form .input div {
+    padding: 0 20px;
+    margin-left: -10px;
+}
+
+#main .withdraw .form .input div label {
+    display: block;
+    color: #686868;
+    font-weight: bold;
+}
+
+#main .withdraw .form .input div input {
+    width: 100%;
+    border: 2px solid #333;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
+}
+
+#main .withdraw .form .input div input[type="checkbox"] {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 7%;
+}
+
+#main .withdraw .form .input button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #FFD800;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#main .withdraw tr {
+    height: 30px;
+}
+
+#main .feature {
+    width: 100%;
+    border-collapse: collapse;
+    /*border: 1px solid $white;*/
+    color: #FFD800;
+}
+
+#main .feature .title {
+    background-color: #bebebe;
+    color: #781c5d;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+}
+
+#main .feature .title .game {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#main .feature .title .details {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#main .feature .title .details td {
+    padding: 2px;
+}
+
+#main .feature .item {
+    font-size: 12px;
+}
+
+#main .feature .item > td {
+    border: none;
+}
+
+#main .feature .item table {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+#main .feature .item table .detail {
+    background-color: #f4f5f6;
+}
+
+#main .feature .item table th {
+    padding: 10px 5px;
+    background-color: white;
+    padding: 10px 5px;
+    height: 100%;
+}
+
+#main .feature .item table td {
+    padding: 5px;
+}
+
+#main .feature .item table .border-right {
+    border-right: 1px solid white;
+}
+
+#main .feature .item table .border-left {
+    border-left: 1px solid white;
+}
+
+#main .feature .item table .border-bottom {
+    border-bottom: 1px solid white;
+}
+
+#main .feature .item table .border-top {
+    border-top: 1px solid white;
+}
+
+#main .terms {
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+}
+
+#main .terms h1,
+#main .terms h2,
+#main .terms h3,
+#main .terms h4,
+#main .terms strong {
+    color: #333;
+}
+
+#main .terms a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFD800;
+}
+
+#contacts {
+    width: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFD800;
+    text-align: center;
+    /*padding: 5px;*/
+}
+
+#contacts p {
+    margin: 5px 0;
+}
+
+#contacts p span {
+    font-weight: 100;
+    color: #6f7387;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: #FFD800;
+}
+
+#footer {
+    background-color: #110E02;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+#footer .social-icons ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .social-icons ul li {
+    display: inline-block;
+}
+
+#footer .social-icons ul svg {
+    color: #8a8d9f;
+    fill: #8a8d9f;
+    width: 30px;
+}
+
+
+
+#footer .top {
+    color: #8a8d9f;
+    text-transform: uppercase;
+}
+
+#footer td {
+    vertical-align: top;
+    text-align: center;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-table {
+    overflow: hidden !important;
+}
+
+.menu-table .menu-t {
+}
+
+
+.menu-wrapper {
+    max-width: 520px;
+    width:100vw;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.menu-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+table.menu-table tr {
+    white-space: nowrap;
+}
+
+table tr td .menu-t {
+    display: inline-block;
+    padding-right: 4px;
+    height: auto !important;
+    margin-top: 5px !important;
+    font-size: 13px;
+    padding-bottom:5px;
+}
+
+.menu-t .menu-img {
+    width: 100% !important;
+    height: 35px !important;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom:5px;
+}
+
+.menu-t a {
+}
+
+.menu-t img {
+
+}
+
+.menu-t div.inner-div {
+    color: #FFFFFF;
+    padding: 5px 5px;
+}
+
+
+.freebet-btn {
+    color: #717168;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    outline: none;
+    background: #ECECEF;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.freebet-text {
+    width: 100%;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.freebet-text-container {
+    background: #919191;
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 5px !important;
+    display: block;
+    margin-left: 2px;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.inner-div.active {
+   background: #2c2457;
+   border-radius:5px;
+}
+.menu-table .active {
+}
+
+h1 {
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 0.5em;
+    font-weight: normal;
+}
+
+.accordion-input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.row {
+    display: flex;
+}
+
+.row .col {
+    flex: 1;
+}
+
+.row .col:last-child {
+    margin-left: 1em;
+}
+
+/* Accordion styles */
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #2c3e50;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+}
+
+.tab-label:hover {
+    background: #1a252f;
+}
+
+.tab-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2c3e50;
+    background: white;
+    transition: all 0.35s;
+}
+
+.tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #2c3e50;
+    cursor: pointer;
+}
+
+.tab-close:hover {
+    background: #1a252f;
+}
+
+.accordion-input:checked + .tab-label {
+    background: #1a252f;
+}
+
+.accordion-input:checked + .tab-label::after {
+    transform: rotate(90deg);
+}
+
+.accordion-input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+}
+
+.virtual-game-image {
+    height: 50px;
+    width: 100px;
+}
+
+.virtual-game-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jackpot-amount{
+    transform: translate(-50%,-50%);
+    font-family: 'Times New Roman',serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(
+            to right,
+            #cb9b51 0,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%,
+            #cb9b51 100%
+    );
+    color:transparent;
+    -webkit-background-clip:text;
+
+}
+
+.jackpot-header{
+    background-repeat: no-repeat;
+    text-align:center;
+}
+.live-casino div {
+  margin-bottom:10px;
+}
+.v-menu{
+}
+td.v-menu div.item, td.v-menu div.item{
+
+}
+.top--nav {
+    margin:2px 5px 2px 5px;
+    width:99% !important;
+}
+.play-button, .demo-button {
+	display: block;
+	background: black;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 2px;
+	text-align: center;
+	float: left;
+	display: block-inline;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+}
+.demo-button{
+    background-color:#ab7a22;
+}

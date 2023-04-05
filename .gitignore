@@ -1,0 +1,5 @@
+vendor
+vendor/*
+*.sw?
+app/cache
+app/config/services.php
