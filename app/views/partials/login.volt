@@ -4,7 +4,7 @@
     </tr>
     <th>{{ this.flashSession.output() }}</th>
     <tr>
-        <td style="padding: 5px;">
+        <td style="padding: 10px 15px;">
             <?php echo $this->tag->form("login/authenticate"); ?>
             <table class="form">
                 <tr class="input">

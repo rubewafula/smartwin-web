@@ -58,7 +58,7 @@
                         </tr>
                         <tr class="spacer"></tr>
                         <tr class="input">
-                          <td>
+                          <td style="padding: 10px 15px;">
                             <button type="submit"><?php echo $t->_('Submit'); ?></button>
                           </td>
                         </tr>

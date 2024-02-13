@@ -12,5 +12,8 @@
             "type": "vcs",
             "url": "https://github.com/OutcomeBet/casino25-api-client.git"
         }
-    ]
+    ],
+    "require-dev": {
+        "phalcon/devtools": "dev-master"
+    }
 }

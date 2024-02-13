@@ -120,7 +120,7 @@
 
     const initializeDGA = async () => {
         try {
-            let url = "prelive-dga0.pragmaticplaylive.net/ws?key=testKey&stylename=lmntgmng_smartwin";
+            let url = "prelive-dga0.pragmaticplaylive.net/ws?key=testKey&stylename=lmntgmng_bets307";
             window.dga.connect(url)
             console.log("Connected to DGA Web Socket on PP")
         } catch (e) {

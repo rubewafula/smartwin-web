@@ -13,7 +13,7 @@
             </a>
         </div>
         <div class="row" style="margin: auto;">
-            <img src="/img/smartwin-app.jpeg" alt="image" width="320"> 
+            <img src="/img/bets307-app.jpeg" alt="image" width="320"> 
         </div>
         <div class="col-xs-5 col-md-6 col-lg-5" style="text-align: center !important;">
         </div>

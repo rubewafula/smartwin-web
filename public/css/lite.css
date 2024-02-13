@@ -592,10 +592,11 @@ table.highlights, div.highlights {
 .errorMessage {
     display: block;
     width: 100%;
-    color: #700000;
-    background: #898989;
+    color: red;
+    background: #fdd8d8;
+    padding: 10px;
     margin: 0px;
-    padding: 3px 0px;
+    /* padding: 3px 0px; */
 }
 
 #main .betslip .delete-all {
@@ -1060,7 +1061,7 @@ hr {
 }
 
 .reset-password a {
-    color: #CA3856;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -1089,8 +1090,8 @@ hr {
 #main .register {
     width: 100%;
     border-collapse: collapse;
-    margin: 5px 0;
-    background-color: white;
+    /* margin: 5px 0; */
+    /* background-color: white; */
     font-size: 12px;
 }
 
@@ -1103,10 +1104,7 @@ hr {
 }
 
 #main .register .title {
-    background-color: #bebebe;
-    color: #902065;
-    height: 30px;
-    font-size: 14px;
+   
 }
 
 #main .register .form {
@@ -1143,15 +1141,7 @@ hr {
 }
 
 #main .register .form .input div input {
-    width: 100%;
-    border: 2px solid #696b74;
-    height: 30px;
-    padding: 0 5px;
-    margin: 5px 0;
-    font-size: 14px;
-    vertical-align: middle;
-    color: #333;
-    font-weight: bold;
+   
 }
 
 #main .register .form .input div input[type="checkbox"] {
@@ -1166,9 +1156,10 @@ hr {
     width: 100%;
     border: none;
     height: 40px;
-    background-color: #FFD800;
+    background-color: rgb(240,30,35);
     color: white;
     font-weight: bold;
+    border-radius: 10px;
     font-size: 14px;
 }
 
@@ -1179,17 +1170,16 @@ hr {
 #main .login {
     width: 100%;
     border-collapse: collapse;
-    margin: 5px 0;
     font-size: 12px;
 }
 
 #main .title {
-    background-color: #080701;
-    color: #b38124;
-    height: 30px;
+    background-color: rgba(255,255, 255, 0.07);
+    color: #ffffff;
+    /* height: 33px; */
     font-size: 14px;
+    padding: 10px 15px;
 }
-
 #main .login .form {
     width: 100%;
     border-collapse: collapse;
@@ -1216,8 +1206,7 @@ hr {
 }
 
 #main .login .form .input div {
-    padding: 0 20px;
-    margin-left: -10px;
+    
 }
 
 #main .login .form .input div label {
@@ -1225,17 +1214,21 @@ hr {
     font-weight: bold;
 }
 
-#main .login .form .input div input {
+#main .input div input {
     width: 100%;
-    height: 30px;
+    height: 38px;
     padding: 0 5px;
-    margin: 5px 0;
+    margin: 2px 0;
     font-size: 14px;
+    box-shadow: none !important;
+    border-radius: 10px;
     vertical-align: middle;
     color: #333;
+    /* color: #ffffff; */
     font-weight: bold;
+    border: none;
+    /* background: rgba(255,255, 255, 0.3); */
 }
-
 #main .login .form .input div input[type="checkbox"] {
     height: 20px;
     padding: 0;
@@ -1247,13 +1240,13 @@ hr {
 
 #main .login .form .input button {
     width: 100%;
-    border-radius:2px;
-    border:none;
+    border-radius: 10px;
+    border: none;
     height: 40px;
-    background-color: #ab7a22;
+    background-color: rgb(240,30,35);
     font-weight: bold;
     font-size: 14px;
-    color:#fff;
+    color: white;
 }
 
 
@@ -1432,15 +1425,8 @@ hr {
 }
 
 #main .deposit .form .input div input {
-    width: 100%;
-    border: 2px solid #686868;
-    height: 30px;
-    padding: 0 5px;
+    
     margin: 5px 0;
-    font-size: 14px;
-    vertical-align: middle;
-    color: #333;
-    font-weight: bold;
 }
 
 #main .deposit .form .input div input[type="checkbox"] {
@@ -1451,19 +1437,20 @@ hr {
     width: 7%;
 }
 
-#main .deposit .form .input button {
+#main .form .submit-btn button {
     width: 100%;
     border: none;
     border-radius:2px;
     height: 40px;
-    background-color: #b38124;
+    background-color: rgba(240,30, 35);
     font-weight: bold;
+    border-radius: 10px;
     font-size: 14px;
     color:#fff;
 }
 
 #main .deposit tr {
-    height: 30px;
+    /* height: 30px; */
 }
 
 #main .withdraw {
@@ -1672,13 +1659,15 @@ hr {
 }
 
 #footer {
-    background-color: #110E02;
+    background-color: rgba(255,255,255, 0.1);
     width: 100%;
     color: #fff;
-    padding: 10px;
+    padding: 20px 15px;
     margin-top: 0px;
     font-size: 12px;
 }
+
+
 
 #footer .social-icons ul {
     list-style: none;
@@ -1966,4 +1955,20 @@ td.v-menu div.item, td.v-menu div.item{
 }
 .demo-button{
     background-color:#ab7a22;
+}
+label {
+    display: inline-block;
+    margin-bottom: .1rem;
+}
+
+.footer-body {
+    background: #000;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.black-bg {
+    background-color: #000000;
 }

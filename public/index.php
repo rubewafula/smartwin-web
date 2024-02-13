@@ -45,7 +45,7 @@ try {
   #    echo $e->getMessage() . '<br>';
       echo '<pre>' . $e->getTraceAsString() . '</pre>';
  echo print_r($e, 1) . PHP_EOL;
-    echo "<head><title>Page Not Found - smartwin.ke</title></head><body style='background-color: #030928;background:url(img/error-cover.jpg)'><link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><div style='
+    echo "<head><title>Page Not Found - bets307.ke</title></head><body style='background-color: #030928;background:url(img/error-cover.jpg)'><link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><div style='
     max-width: 600px;
     display: block;
     margin: 100px auto;
@@ -54,7 +54,7 @@ try {
     font-size: 20px;
     font-family: Montserrat, sans-serif;
 '>
-<a href='https://smartwin.co.ke'><img style='max-width: 180px;' src='img/logo.png' /></a>
+<a href='https://bets307.co.ke'><img style='max-width: 180px;' src='img/logo.png' /></a>
 <p><b style='font-size: 50px;
     line-height: 60px;
     display: block;'>Sorry</b> <br/>Looks like something went wrong on our end.<br/> Please head back to the Homepage

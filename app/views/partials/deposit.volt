@@ -30,8 +30,8 @@
           </tr>
           <tr class="spacer"></tr>
           <tr class="input">
-            <td style="padding:10px">
-              <button type="submit" onclick="fbDeposit()">Deposit Now</button>
+            <td style="padding:10px" class="submit-btn">
+              <button class="" type="submit" onclick="fbDeposit()">Deposit Now</button>
             </td>
           </tr>
       </form>

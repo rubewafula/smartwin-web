@@ -28,7 +28,7 @@ class IndexController extends ControllerBase
 
         $this->view->setVars([
             'games' => $results,
-            'sectionId' => $params['section-id'],
+            // 'sectionId' => $params['section-id'],
             'gametype' => $type
         ]);
 

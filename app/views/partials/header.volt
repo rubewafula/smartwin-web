@@ -1,5 +1,5 @@
 <a href="/deposit" style="text-decoration: none;">
-  <table style="background-color: green; width:100%; padding:2px 0px; text-align: center;">
+  <table style="background-color: rgb(240,35, 30); width:100%; padding:2px 0px; text-align: center;">
     <tr>
       <td style="width: 100%; font-size: 11px; color: #fff; height:32px;">
             DEPOSIT<span style="margin-bottom: 1px;"> → </span> <span style="font-weight: bold;"> M-PESA </span>(<strong>4093333</strong>) <span>&nbsp OR &nbsp; </span> 
@@ -27,8 +27,8 @@
 	  </td>
 	  <td class="betslip" style="">
 	    {% if session.get('auth') ==  null %}
-		   <a href="/login" style="background-color: #002053; padding:5px 10px; border-radius:4px; margin-left:5px; color: white!important; text-decoration: none;">Login</a>
-	       <a href="/signup" style="background-color: #ab7a22; padding:5px 10px; border-radius:4px; margin-left:5px; color: white!important; text-decoration: none;">Register</a>
+		   <a href="/login" style="background-color: rgb(240,35, 30); padding:5px 10px; border-radius:4px; margin-left:5px; color: white!important; text-decoration: none;">Login</a>
+	       <a href="/signup" style="background-color: rgb(255,200, 5); padding:5px 10px; border-radius:4px; margin-left:5px; color: white!important; text-decoration: none;">Register</a>
 	       <!-- <a href="/signup/verify" style="background-color: green; padding:5px 10px; border-radius:4px; margin-left:5px; color: white!important; text-decoration: none;">Verify Account</a> -->
 		{% else %}
             <a href="/myaccount" style="color: #ab7a22; padding:5px 10px; border-radius:2px; margin-left:5px; text-decoration: none;">MY ACCOUNT</a> <span style="color:#282105">|</span>

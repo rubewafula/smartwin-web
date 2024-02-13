@@ -10,7 +10,7 @@
     <td><b>Bonus:</b> KES. {{user['bonus']}}</td>
   </tr>
   <tr>
-    <td><b>Smartwin points:</b> {% if user['points'] is defined %}{{user['points']}} {%else%}0{%endif%}</td>
+    <td><b>bets307 points:</b> {% if user['points'] is defined %}{{user['points']}} {%else%}0{%endif%}</td>
   </tr>
   
   </table>
